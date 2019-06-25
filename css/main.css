@@ -1,0 +1,50 @@
+*{
+	margin: 0;padding: 0;
+}
+body{
+	font-size: 12px;
+	font-family: '微软雅黑';
+	background-color: #f1f3ee;
+}
+a,a:visited{
+	color: #999;
+	text-decoration: none;
+}
+a:hover{
+	color: #cc0D24;
+	text-decoration: none;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.lf{
+	float:left;
+}
+.rf{
+	float:right;
+}
+
+li{
+	list-style-type: none;
+}
+input,button{
+	outline: none;
+}
+i{
+	background-image: url(../images/iconlist_2.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;/*垂直对齐*/
+}
+b{
+	/*background-image: url(../images/iconlist_2.png);*/
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;/*垂直对齐*/
+}
+.clearfloat:after{
+	display: block;/*块状显示*/
+	clear:both;/*清理浮动影响*/
+	content:'';/*激活伪类的前提*/
+}
